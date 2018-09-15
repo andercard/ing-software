@@ -1,0 +1,16 @@
+.softInformative__definition {
+  display: flex;
+  padding: 100px 20px;
+  h4 {
+    font-family: var(--font1);
+    color: var(--color1);
+    font-size: 40px;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    padding: 0 30px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}

@@ -1,0 +1,19 @@
+:root {
+  --font1: 'Montserrat', sans-serif;
+  --font2: 'Roboto', sans-serif;
+  --maxWidth: 1100px;
+  --color1: #005DB9;
+  --color2: #004C98;
+  --color3: #343a40;
+}
+@import './components/normalize';
+
+* {
+  font-family: var(--font2);
+  color: var(--color3);
+}
+
+@import './components/grid';
+@import './components/scroll-animation';
+@import './components/header';
+@import './components/softInformative';
